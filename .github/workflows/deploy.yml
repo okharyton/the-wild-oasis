@@ -3,7 +3,7 @@ name: Deploy app
 on:
   push:
     branches:
-      - main
+      - git-hub-action
 
 jobs:
   say-hello:
