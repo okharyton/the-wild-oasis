@@ -1,4 +1,4 @@
-name: Delete Cloud Run test Deployment
+name: Delete Cloud Run test env
 
 on:
   pull_request:
