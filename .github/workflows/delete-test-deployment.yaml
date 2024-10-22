@@ -1,4 +1,4 @@
-name: Delete Cloud Run Deployment
+name: Delete Cloud Run test Deployment
 
 on:
   pull_request:
