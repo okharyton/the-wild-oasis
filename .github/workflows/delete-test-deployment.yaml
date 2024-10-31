@@ -31,4 +31,5 @@ jobs:
       - name: Delete Docker image from Google Artifact Registry
         run: |
           gcloud artifacts docker images delete ${{ secrets.ARTIFACT_REGISTRY }}/test-my-app:${{ github.head_ref }} \
-            --project ${{ secrets.PROJECT_ID }}
+            --project ${{ secrets.PROJECT_ID }} \
+            --quiet            
