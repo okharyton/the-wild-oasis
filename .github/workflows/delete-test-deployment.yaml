@@ -32,4 +32,4 @@ jobs:
         run: |
           gcloud artifacts docker images delete ${{ secrets.ARTIFACT_REGISTRY }}/test-my-app:${{ github.head_ref }} \
             --project ${{ secrets.PROJECT_ID }}
-            --quite            
+            --quiet            
