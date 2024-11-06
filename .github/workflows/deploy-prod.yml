@@ -52,4 +52,6 @@ jobs:
             --port=80 \
             --no-cpu-boost \
             --cpu-throttling \
-            --ingress internal-and-cloud-load-balancing
+            --ingress internal-and-cloud-load-balancing \
+            --concurrency 5
+

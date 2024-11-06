@@ -44,4 +44,5 @@ jobs:
             --max-instances=1 \
             --port=80 \
             --no-cpu-boost \
-            --cpu-throttling
+            --cpu-throttling \
+            --concurrency 5
