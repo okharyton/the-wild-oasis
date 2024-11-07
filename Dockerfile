@@ -1,8 +1,6 @@
-FROM node:21
+FROM node:23-alpine
 
 RUN npm install -g vite
-
-RUN npm install -g npm@latest
 
 WORKDIR /app
 
